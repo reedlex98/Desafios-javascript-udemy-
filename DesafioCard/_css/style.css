@@ -1,0 +1,51 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.curso{
+    width: 275px;
+    height: 300px;
+    box-shadow: 0 0 25px #555;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+    padding: 5px;
+    vertical-align: top;
+}
+.curso img{
+    width: 100%;
+    max-height: 154px;
+    box-sizing: border-box;
+}
+.curso-info{
+    margin: 15px 5px 0px 15px;
+    height: 85px;
+    overflow: hidden;
+}
+.curso-info h4{
+    color: #222;
+    font-size: 1.40em;
+    font-weight: thin;
+    margin: 0;
+}
+.curso-info p{
+    color: #222;
+    font-weight: thin;
+}
+
+.curso-preco{
+    text-align: right;
+    word-spacing: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.preco-de{
+    font-size: 0.95em;
+    color: red;
+    text-decoration: line-through;
+}
+.preco-por{
+    font-size: 1.5em;
+    color: green;
+    font-weight: bold;
+}
